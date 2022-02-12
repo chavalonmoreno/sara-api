@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin
-@RequestMapping("api/healtcheck")
+@RequestMapping("api/healthcheck")
 public class HealtCheckController {
 
     @GetMapping
