@@ -2,11 +2,9 @@ package com.example.sara.controllers;
 
 import com.example.sara.applications.ContratosApplication;
 import com.example.sara.domain.dto.AltaDTO;
-import com.example.sara.domain.dto.ContratoDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 

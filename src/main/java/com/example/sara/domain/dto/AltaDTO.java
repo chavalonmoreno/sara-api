@@ -9,7 +9,7 @@ public class AltaDTO {
     private String sucursal;
     private String razonSocial;
     private String nombreColaborador;
-    private Date fechaNacimiento;
+    private Date   fechaNacimiento;
     private String paisOrigen;
     private String nacionalidad;
     private String sexo;
@@ -39,7 +39,7 @@ public class AltaDTO {
     private String tallaColaborador;
 
 
-    private Date fechaAlta;
+    private Date   fechaAlta;
     private String estadoContratacion;
     private String ciudadContratacion;
     private String estudiosColaborador;
@@ -47,6 +47,6 @@ public class AltaDTO {
     private String diasPruebaContrato;
 
     private String nombreBeneficiario;
-    private Date fechaNacimientoBeneficiario;
+    private Date   fechaNacimientoBeneficiario;
     private String parentescoBeneficiario;
 }
