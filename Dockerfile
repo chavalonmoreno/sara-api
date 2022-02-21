@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:11
 LABEL maintainer="alexismoreno2404@gmail.com"
 VOLUME /sara-app
 ADD build/libs/sara-0.0.1-SNAPSHOT.jar app.jar
