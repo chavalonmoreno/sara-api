@@ -1,0 +1,15 @@
+  version: '3'
+  services:
+    back:
+      build: ./sara-api/
+      ports:
+        - "8085"
+      restart: always
+    front:
+      build: ./front-sara/
+      links:
+        - "back"
+      depends_on:
+        - "back"
+      ports:
+        - "80:80"
